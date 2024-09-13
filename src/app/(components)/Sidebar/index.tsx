@@ -20,9 +20,9 @@ const Sidebar = () => {
   } bg-white transition-all duration-300 overflow-hidden h-full shadow-md z-40`;
 
   return (
-    <div>
+    <div className={sidebarClassNames}>
       {/* TOP LOGO */}
-      <div className={sidebarClassNames}>
+      <div className="flex gap-3 justify-between md:justify-normal items-center pt-8">
         <div className="logo">logo</div>
 
         <h1 className="font-extrabold text-2xl">RASTOCK</h1>
