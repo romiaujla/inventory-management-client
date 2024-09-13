@@ -1,9 +1,23 @@
 "use client";
 
 import { useAppDispatch, useAppSelector } from "@/app/redux";
-import { Menu } from "lucide-react";
+import { Icon, Menu, type LucideIcon } from "lucide-react";
 import React from "react";
 import { setIsSidebarCollapsed } from "@/state/index";
+
+interface SidebarLinkProps {
+  href: string;
+  icon: LucideIcon;
+  label: string;
+  isCollapsed: boolean;
+}
+
+const SidebarLink = ({
+  href,
+  icon: Icon,
+  label,
+  isCollapsed,
+}: SidebarLinkProps) => {};
 
 const Sidebar = () => {
   const dispatch = useAppDispatch();
