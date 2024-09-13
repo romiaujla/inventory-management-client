@@ -25,7 +25,7 @@ const Sidebar = () => {
 
       {/* FOOTER */}
       <div className="footer">
-        <p>&copy; 2024 RAStock</p>
+        <p className="text-center text-xs text-gray-500">&copy; 2024 RAStock</p>
       </div>
     </div>
   );
